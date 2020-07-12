@@ -1,7 +1,7 @@
 Build An Alexa Volunteer Finder Skill using ASK Python SDK
 =========================================
 
-This Alexa sample skill finds volunteer opportunities in your area and sends you an email with links. 
+This Alexa skill finds volunteer opportunities in your area and sends you an email with links. 
 
 
 Concepts
