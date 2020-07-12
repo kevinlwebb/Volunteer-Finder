@@ -1,0 +1,58 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "volunteer finder",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetCityIntent",
+                    "slots": [
+                        {
+                            "name": "City",
+                            "type": "AMAZON.City"
+                        }
+                    ],
+                    "samples": [
+                        "My city is {City}",
+                        "I live in {City}",
+                        "I'm in {City}",
+                        "{City}"
+                    ]
+                },
+                {
+                    "name": "SetEmailIntent",
+                    "slots": [
+                        {
+                            "name": "Email",
+                            "type": "Email"
+                        }
+                    ],
+                    "samples": [
+                        "My email is {Email}",
+                        "{Email}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
